@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="automation testing">
+	<test name="testcases">
+		<classes>
+			<class name="com.qa.tests.LoginPageTest"></class>
+			<methods>
+				<include name="loginTitleTest"></include>
+				<include name="loginTest"></include>
+				<exclude name="multipleLogin"></exclude>
+			</methods>
+		</classes>
+		
+	</test>
+</suite>
